@@ -31,9 +31,9 @@ cp -pr /config/rutorrent/settings/* /app/rutorrent/conf/
 	rm /config/rtorrent/rtorrent_sess/rtorrent.lock
 
 # permissions
-chown abc:abc \
-	/downloads \
-	/downloads{/completed,/incoming,/watched}
+#chown abc:abc \
+#	/downloads \
+#	/downloads{/completed,/incoming,/watched}
 
 chown -R abc:abc \
 	/config \

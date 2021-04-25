@@ -1,11 +1,7 @@
 FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.12
 
 # set version label
-ARG BUILD_DATE
-ARG VERSION
-ARG RUTORRENT_RELEASE
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="alex-phillips"
+LABEL maintainer="edifus"
 
 # copy patches
 COPY patches/ /defaults/patches/
