@@ -46,11 +46,11 @@ jobs:
         if: ${{ env.CR_USER && env.CR_PAT }}
         run: |
           docker push ghcr.io/${ENDPOINT}
-      - name: Login to DockerHub
-        if: ${{ env.DOCKERUSER && env.DOCKERPASS }}
-        run: |
-          echo ${{ secrets.DOCKERPASS }} | docker login -u ${{ secrets.DOCKERUSER }} --password-stdin
-      - name: Push tags to DockerHub
-        if: ${{ env.DOCKERUSER && env.DOCKERPASS }}
-        run: |
-          docker push ${ENDPOINT}
+#      - name: Login to DockerHub
+#        if: ${{ env.DOCKERUSER && env.DOCKERPASS }}
+#        run: |
+#          echo ${{ secrets.DOCKERPASS }} | docker login -u ${{ secrets.DOCKERUSER }} --password-stdin
+#      - name: Push tags to DockerHub
+#        if: ${{ env.DOCKERUSER && env.DOCKERPASS }}
+#        run: |
+#          docker push ${ENDPOINT}
