@@ -13,6 +13,7 @@ env:
   endpoint: "ghcr.io/edifus/rutorrent"
   latest_tag_branch: "main"
 
+
 jobs:
   docker:
     runs-on: ubuntu-latest

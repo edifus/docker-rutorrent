@@ -4,7 +4,6 @@
 mkdir -p \
 	/config{/log/rtorrent,/log/rutorrent,/rtorrent/rtorrent_sess,/rutorrent/settings/users} \
 	/config/rutorrent/profiles{/settings,/torrents,/users,/tmp} \
-	/downloads{/completed,/incoming,/watched} \
 	/run/php
 
 cd /defaults/rutorrent-conf || exit
@@ -29,11 +28,6 @@ cp -pr /config/rutorrent/settings/* /app/rutorrent/conf/
 # delete lock file if exists
 [[ -e /config/rtorrent/rtorrent_sess/rtorrent.lock ]] && \
 	rm /config/rtorrent/rtorrent_sess/rtorrent.lock
-
-# permissions
-#chown abc:abc \
-#	/downloads \
-#	/downloads{/completed,/incoming,/watched}
 
 chown -R abc:abc \
 	/config \
