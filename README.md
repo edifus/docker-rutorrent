@@ -231,3 +231,4 @@ docker build  --no-cache --pull -t edifus/rutorrent:test .
 * **07.08.16:** - Perms fix on nginx tmp folder, also exposed php.ini for editing by use in /config/php.
 * **26.07.16:** - Rebase to alpine.
 * **08.03.16:** - Initial Release.
+
