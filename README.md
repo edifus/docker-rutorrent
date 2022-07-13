@@ -1,9 +1,3 @@
-[![GitHub Stars](https://img.shields.io/github/stars/edifus/docker-rutorrent.svg?color=337ab7&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/edifus/docker-rutorrent)
-[![GitHub Release](https://img.shields.io/github/release/edifus/docker-rutorrent.svg?color=337ab7&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/edifus/docker-rutorrent/releases)
-[![Docker Stars](https://img.shields.io/docker/stars/edifus/rutorrent.svg?color=337ab7&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=stars&logo=docker)](https://hub.docker.com/r/edifus/rutorrent)
-[![Docker Pulls](https://img.shields.io/docker/pulls/edifus/rutorrent.svg?color=337ab7&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/edifus/rutorrent)
-[![Docker Image Size](https://img.shields.io/docker/image-size/edifus/rutorrent.svg?color=337ab7&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=size&logo=docker)](https://hub.docker.com/r/edifus/rutorrent)
-
 # [edifus/rutorrent](https://github.com/edifus/docker-rutorrent)
 
 [Rutorrent](https://github.com/Novik/ruTorrent) is a popular rtorrent client with a webui for ease of use.
