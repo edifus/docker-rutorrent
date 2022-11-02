@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.16-version-dd4ccd8f
 
 # set version label
 LABEL maintainer="edifus"
