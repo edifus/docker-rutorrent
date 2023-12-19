@@ -17,7 +17,8 @@ throttle.max_uploads.global.set = 15
 # throttle.max_uploads.set = 5
 
 # Directories
-# schedule2 = watch_directory_1,5,5,"load.start=/downloads/watched/*.torrent"
+#schedule2 = watch_directory,5,5,load.start=/downloads/watched/*.torrent
+schedule = watch_directory,1,5,"load.start=/downloads/watched/*.torrent,d.directory.set=/downloads/incoming/,d.delete_tied=,d.custom1.set=cross-seed"
 directory = /downloads/incoming
 session = /config/rtorrent/rtorrent_sess
 method.insert = d.get_finished_dir, simple, "cat=/downloads/completed/,$d.custom1="

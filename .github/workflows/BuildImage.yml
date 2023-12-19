@@ -10,7 +10,7 @@ on:
     - cron: "0 0 * * 1"
 
 env:
-  endpoint: "ghcr.io/edifus/rutorrent"
+  endpoint: "ghcr.io/michaelpetik/rutorrent"
   latest_tag_branch: "main"
 
 jobs:

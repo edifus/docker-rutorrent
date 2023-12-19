@@ -1,7 +1,7 @@
 FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14
 
 # set version label
-LABEL maintainer="edifus"
+LABEL maintainer="Michael Petik"
 
 # copy patches
 COPY patches/ /defaults/patches/
