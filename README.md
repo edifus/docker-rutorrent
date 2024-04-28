@@ -1,5 +1,7 @@
 # [edifus/rutorrent](https://github.com/edifus/docker-rutorrent)
 
+DEPRECIATED: No longer updated
+
 [Rutorrent](https://github.com/Novik/ruTorrent) is a popular rtorrent client with a webui for ease of use.
 
 [![rutorrent](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/rutorrent.jpg)](https://github.com/Novik/ruTorrent)
